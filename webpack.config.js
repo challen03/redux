@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 var commonPlugin = new webpack.optimize.CommonsChunkPlugin('common.js');
 module.exports = {
-	entry: {index: './src/js/entry.js'},
+	entry: {index: './src/js/index.js'},
 	output: {
 		path: './static/',
 		publicPath: 'http://localhost:8080/static/',
